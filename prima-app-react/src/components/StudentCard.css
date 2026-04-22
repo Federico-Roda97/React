@@ -1,0 +1,42 @@
+.user-card {
+  width: 150px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  text-align: center;
+  color: white;
+  margin: 10px; /* Spaziatura se non gestita dal grid del padre */
+}
+
+.avatar-container img {
+  width: 100px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.user-info h2 {
+  margin: 15px 0 10px 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-delete {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background: #ff4757;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.btn-delete:hover {
+  background: #ff6b81;
+}
